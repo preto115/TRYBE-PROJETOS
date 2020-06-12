@@ -1,0 +1,287 @@
+body {
+  background: linear-gradient(to top, rgb(215, 220, 233) 20%, transparent 100%);
+  font-family: Freight Sans, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(59, 89, 152);
+  height: 82px;
+  margin: 0 auto;
+  min-width: 980px;
+}
+
+.top-bar {
+  display: flex;
+  font-family: Freight Sans, sans-serif;
+  font-size: 12px;
+  justify-content: space-between;
+  margin: auto;
+  width: 980px;
+}
+
+.facebook-logo img {
+  height: 74px;
+  padding-top: 8px;
+}
+
+.facebook-logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -15px;
+  min-width: 200px;
+}
+
+.login {
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  margin-top: 10px;
+  width: 400px;
+}
+
+.login label {
+  margin-bottom: 5px;
+}
+
+.email-phone , .password , .button {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.user-email-phone , .user-password {
+  padding: 2px 5px;
+}
+
+.esqueceuSenha {
+  color: #9cb4d8;
+  display: flex;
+  font-size: 12px;
+  justify-content: flex-end;
+  margin-right: 115px;
+  margin-top: 5px;
+}
+
+.linha {
+  display: flex;
+}
+
+.botao {
+  background-color: rgb(66, 103, 178);
+  border: 1px solid rgb(41, 72, 125);
+  border-radius: 2px;
+  color: rgb(235, 235, 238);
+  cursor: pointer;
+  font-family: Freight Sans, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  padding: 2px 6px;
+}
+
+.botao:hover {
+  background-color: #365899;
+  border: 1px solid #29487d;
+}
+
+.body {
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.container {
+  display: flex;
+  font-family: Freight Sans, sans-serif;
+  height: 90%;
+  justify-content: center;
+  min-width: 980px;
+  text-decoration: none;
+
+}
+
+.espaco-cadastro {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.campo-fullname {
+  display: flex;
+  width: 49%;
+}
+
+.data {
+  border: 1px solid rgb(189, 199, 216);
+  border-radius: 4px;
+  color: #1c1e21;
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+  width: 150px;
+}
+
+.cadastro-input {
+  border: 1px solid rgb(189, 199, 216);
+  border-radius: 5px;
+  color: #1c1e21;
+  font-size: 18px;
+  padding: 8px 10px;
+  width: 100%;
+}
+
+.right-side {
+  max-width: 400px;
+}
+
+h1 {
+  color: #333;
+  font-family: Freight Sans, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: -8px;
+  margin-top: 23px;
+}
+
+h4 {
+  color: rgb(144, 148, 156);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.34;
+  margin-bottom: 5px;
+  width: 400px;
+}
+
+.left-side {
+  min-width: 50%;
+}
+
+.left-side img {
+  min-width: 90%;
+}
+
+.left-side p {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 75%;
+}
+
+.botao-verde {
+  background: linear-gradient(#82dd6c 5%, rgb(184, 226, 163) 40%, #509e31 90%);
+  border: 1px solid rgb(44, 81, 21);
+  border-color: #3b6e22 rgb(44, 81, 21);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Freight Sans, sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 126%;
+  margin-top: 30px;
+  padding: 7px 8px;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  text-shadow: 1px 1px 2px rgb(34, 33, 33);
+  width: 194px;
+}
+
+.botao-verde:active {
+  background: linear-gradient(#70be5c 5%, rgb(177, 224, 154) 30%, #458a2a 90%);
+  background-color: rgb(164, 227, 136);
+  border: 1px solid #112008;
+  border-radius: 5px;
+  box-shadow: inset 0.5px 0.5px #20440e;
+  color: white;
+  cursor: pointer;
+  padding: 7px 8px;
+  text-shadow: 2px 2px 2px rgb(34, 33, 33);
+}
+
+.paragrafo-Termos {
+  color: #777;
+  font-size: 11px;
+  margin-top: 16px;
+  max-width: 300px;
+  text-decoration: none;
+}
+
+.interrogacao {
+  cursor: pointer;
+  vertical-align: middle;
+  width: 19px;
+}
+
+footer {
+  background-color: white;
+  font-family: Freight Sans, sans-serif;
+  min-width: 980px;
+}
+
+.footer-container {
+  height: 1vh;
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.paragrafo-crie-pagina {
+  color: #666;
+  display: flex;
+  font-size: 13px;
+  font-weight: 600;
+  justify-content: flex-start;
+  line-height: 1.34;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+footer a , .right-side a {
+  color: #315499;
+  text-decoration: none;
+}
+
+.facebook-paises , ul , li {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  justify-content: space-around;
+  line-height: 0;
+  list-style: none;
+  margin-top: 5px;
+  padding: 0 10px;
+}
+
+.facebook-servicos , ul , li {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  justify-content: space-between;
+  line-height: 1.1rem;
+  list-style: none;
+}
+
+.cross a {
+  background-color: rgb(246, 246, 250);
+  border: 1px solid rgb(192, 190, 204);
+  border-radius: 2px;
+  color: rgb(76, 76, 82);
+  font-family: Freight Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 1px 8px;
+  text-rendering: geometricPrecision;
+}
+
+hr {
+  margin-top: -10px;
+  text-decoration: lightgray;
+}

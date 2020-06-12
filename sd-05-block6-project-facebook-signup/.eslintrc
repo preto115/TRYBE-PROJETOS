@@ -5,12 +5,7 @@
     "prefer-arrow-callback": "off",
     "func-names": "off",
     "arrow-parens": [2, "always"],
-    "no-param-reassign": "off",
-    "no-new": "off"
-  },
-  "globals": {
-    "$": true,
-    "Pikaday": true
+    "no-param-reassign": "off"
   },
   "env": {
     "browser": true,

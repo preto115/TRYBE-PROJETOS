@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial do Facebook</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+    <link rel="stylesheet" href="https://antonlapshin.github.io/popup-validation/validation.min.css"/>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <header >
+      <div class="top-bar">
+        <div class="facebook-logo">
+          <a href="https://www.facebook.com/" title="Ir para a página do Facebook"><img src="images/facebook-logo.png" alt="logo do facebook"></a>
+        </div>
+        <div class="login">
+          <div class="linha">
+            <div class="email-phone">
+              <label id="user-email-phone-label" type="email" class="user-email-phone-label" >Email ou telefone</label>
+              <input class="user-email-phone" type="text" id="user-email-phone" >
+            </div>
+            <div class="password">
+              <label id="user-password-label">Senha</label>
+              <input class="user-password" id="user-password" type="password">
+            </div>
+            <div class="button">
+              <input id='button-login' class="botao" type="button" value="Entrar">
+            </div>
+          </div>
+          <div class="esqueceuSenha">
+            <a>Esqueceu a conta?</a>
+          </div>
+        </div>
+      </div>
+    </header>
+      <div class="body">
+        <div class="container">
+          <section class="left-side">
+            <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+            <img id="facebook-networking" src="images/networking.png">
+          </section>
+          <section class="right-side">
+            <div class="open-account">
+              <h1 class="right-side">Abra uma conta</h1>
+              <p class="campo-radio">É rápido e fácil.</p>
+            </div>
+            <!-- inicio do formulario -->
+            <form action='' method="GET" class="js-form" id="form">
+              <div class="espaco-cadastro">
+                <div class="campo-fullname">
+                  <input id="nome" class="cadastro-input validate" data-validate="required" name="name"  type="text" placeholder="Nome">
+                </div>
+                <div class="campo-fullname">
+                  <input id="sobre-nome" class="cadastro-input validate" data-validate="required" type="text" placeholder="Sobrenome">
+                </div>
+              </div>
+              <div class="espaco-cadastro">
+                <input class="cadastro-input input-celular-email validate" data-validate="required,email" type="text" placeholder="Celular ou email">
+              </div>
+              <div class="espaco-cadastro">
+                <input class="cadastro-input input-password validate" data-validate="required" type="password" placeholder="Nova senha">
+
+              </div>
+              <div class="campo-data">
+                <h4 class="campo-data">Data de nascimento</h4>
+                <input class="data validate" data-validate="required" id="datepicker" type="text" placeholder="DD / MM / AAAA">
+                <a href="#"><img class="interrogacao" src="images/interrogração.png" alt="sinal de interrogração"></a>
+
+              </div>
+              <div class="campo-radio">
+                <h4 class="campo-radio">Gênero</h4>
+                <input id="female" type="radio" name="gender"  value="Feminino" class="validate" data-validate="required">
+                <label for="female">Feminino</label>
+                <input id="male" type="radio" name="gender" value="Masculino" class="validate" data-validate="required">
+                <label for="male">Masculino</label>
+                <input id="personalizado" type="radio" name="gender" value="Personalizado" class="validate" data-validate="required">
+                <label for="personalizado">Personalizado</label>
+              </div>
+              <div>
+                <a href="#"><img class="interrogacao" src="images/interrogração.png" alt="sinal de interrogração"></a>
+                <p class="paragrafo-Termos">Ao clicar em Cadastre-se, você concorda com nossos <a href="https://pt-br.facebook.com/legal/terms/update" target="_blank" >Termos</a>, <a href="https://pt-br.facebook.com/about/privacy/update" target="_blank">Política de Dados</a> e <a href="https://pt-br.facebook.com/policies/cookies/" target="_blank">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+                <button class="botao-verde" id="facebook-register" type="subimit">Cadastre-se</button>
+              </div>
+              <p class="paragrafo-crie-pagina"><a href="https://pt-br.facebook.com/pages/create/?ref_type=registration_form">Criar uma Página</a>&ThinSpace; para uma celebridade, banda ou empresa.</p>
+            </form>
+          </section>
+        </div>
+      </div>
+      <p class="paragrafo-Termos">Based on Facebook's site: Designed by Elisângelo / 2020</p>
+    <footer>
+      <div class="footer-container">
+        <div class="facebook-paises" >
+          <ul>
+            <li><a href="https://www.facebook.com/" title="Português (Brasil)">Português (Brasil)</a></li>
+            <li><a href="https://www.facebook.com/" title="English (US)">English (US)</a></li>
+            <li><a href="https://es-la.facebook.com/" title="Spanish">Español</a></li>
+            <li><a href="https://fr-fr.facebook.com/" title="French (France)">Français (France)</a></li>
+            <li><a href="https://it-it.facebook.com/" title="Italian">Italiano</a></li>
+            <li><a href="https://ar-ar.facebook.com/" title="Arabic">العربية</a></li>
+            <li><a href="https://de-de.facebook.com/" title="German">Deutsch</a></li>
+            <li><a href="https://hi-in.facebook.com/" title="Hindi">हिन्दी</a></li>
+            <li><a href="https://zh-cn.facebook.com/" title="Simplified Chinese (China)">中文(简体)</a></li>
+            <li><a href="https://ja-jp.facebook.com/"  title="Japanese">日本語</a></li>
+            <li class="cross"><a href="https://pt-br.facebook.com/#">&plus;</a></li>
+          </ul>
+        </div>
+        <hr>
+        <div class="facebook-servicos">
+          <ul>
+            <li><a href="#">Cadastre-se</li>
+            <li><a href="https://messenger.com/">Messenger</a></li>
+            <li><a href="#">Facebook Lite</a></li>
+            <li><a href="https://www.facebook.com/watch/">Watch</a></li>
+            <li><a href="#">Pessoas</li>
+            <li><a href="#">Páginas</li>
+            <li><a href="#">Categorias de Páginas</li>
+            <li><a href="#">Locais</li>
+            <li><a href="#">Jogos</li>
+            <li><a href="#">Marquete</li>
+            <li><a href="#">Grupos</li>
+            <li><a href="#">Carreiras</li>
+            <li><a href="#">Privacidade</li>
+            <li><a href="#">Sobre</li>
+            <li><a href="#">Serviços</li>
+            <li><a href="#">Ajuda</li>
+            <li><a href="https://pay.facebook.com/" target="_blank">Facebook Pay</a></li>
+            <li><a href="https://www.oculus.com/" target="_blank">Oculus</a></li>
+            <li><a href="https://portal.facebook.com/" target="_blank">Portal</a></li>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="#" >Local</a></li>
+            <li><a href="#">Campanhas de arrecadação de fundos</a></li>
+            <li><a href="#">Criar anúncio</a></li>
+            <li><a href="#" >Criar Página</a></li>
+            <li><a href="https://developers.facebook.com/?ref=pf">Desenvolvedores</a></li>
+            <li><a href="https://pt-br.facebook.com/policies/cookies/">Cookies</a></li>
+            <li><a href="https://www.facebook.com/help/568137493302217">Opções de anúncio</a></li>
+            <li><a href="#" >Termos</a></li>
+            <li><a href="#" >Ajuda</a></li>
+            <li><a href="#">Configurações</a></li>
+            <li><a href="#">Registro de Atividades</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+    <script src="https://antonlapshin.github.io/popup-validation/validation.min.js"></script>
+   <!--  <script src="./node_modules/just-validate/dist/js/just-validate.min.js"></script> -->
+   <script src="script.js"></script>
+   <script src="scriptPikaday.js"></script>
+  </body>
+</html>
