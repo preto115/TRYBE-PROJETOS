@@ -32,7 +32,6 @@ const limparCarrinho = () => {
   document.getElementsByTagName('ol')[0].innerHTML = '';
   localStorage.setItem('carrinho', '');
    soma();
-  // somaPrice();
 };
 
 botaoExcluirProdutos.addEventListener('click', limparCarrinho);
@@ -50,21 +49,15 @@ function createCustomElement(element, className, innerText) {
   e.innerText = innerText;
   return e;
 }
-//
-//
+
 function cartItemClickListener(event) {
-   const itemExcluido = event.target;
-  let valor = itemExcluido.innerText;
-  /* subtracao += Number(valor.slice(valor.indexOf('$') + 1));
-  if (somaPrice() === 0) {
-    soma = 0;
-    subtracao = 0;
-  } */
+  let valor = event.target.innerText;
   // exclui intem clicado do carrinho
   valor = valor.slice(valor.indexOf('$') + 1);
   soma(valor);
-  const carrinhoDeCompras = document.getElementsByTagName('ol')[0];
-  carrinhoDeCompras.removeChild(itemExcluido);
+  // const carrinhoDeCompras = document.getElementsByTagName('ol')[0];
+  // carrinhoDeCompras.removeChild(event.target);
+  event.target.remove();
   salvaCarrinho();
 }
 
@@ -77,9 +70,11 @@ function createCartItemElement({ sku, name, salePrice }) {
 }
 
 function getSkuFromProductItem(item) {
+ // item = item.target.parentNode;
+  item = item.target.parentNode.querySelector('span.item__sku').innerText;
   // faz uma requição do produto selecionado a API
   fetch(`https://api.mercadolibre.com/items/${item}`)
-  .then(response => response.json())
+  .then((response) => response.json())
   .then(function (produtoAdicionado) {
     // separa as informacoes do produto selecionado que serao exibidas ( destruturing object)
     const { id: sku, title: name, price: salePrice } = produtoAdicionado;
@@ -91,7 +86,6 @@ function getSkuFromProductItem(item) {
     soma(salePrice);
     salvaCarrinho();
   });
-  // return item.querySelector('span.item__sku').innerText;
 }
 
 function createProductItemElement({ sku, name, image }) {
@@ -105,7 +99,7 @@ function createProductItemElement({ sku, name, image }) {
   section.appendChild(createProductImageElement(image));
   //
   const botaoItem = createCustomElement('button', 'item__add', 'Adicionar ao carrinho!');
-  botaoItem.addEventListener('click', () => getSkuFromProductItem(sku));
+  botaoItem.addEventListener('click', getSkuFromProductItem);
   section.appendChild(botaoItem);
   items.appendChild(section);
   //

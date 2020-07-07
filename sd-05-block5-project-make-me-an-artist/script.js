@@ -40,9 +40,7 @@ const clearButton = document.getElementById('clear-board');
       //  return board;
     }
 botaoGeraQuadro.addEventListener('click', checaEntrada);
-function checaEntrada(
-
-){ 
+function checaEntrada(){ 
     let valor = boardSize.value;
 if (valor != ""){
 
