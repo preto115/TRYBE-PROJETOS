@@ -1,0 +1,12 @@
+# O NOME DO ARQUIVO DEVE SER `.gitignore` (ATENTE-SE AO PONTO NO INÍCIO)
+
+# VSCode repo settings
+.vscode
+node_modules/
+package.json
+.travis.yml
+.stylelintrc.json
+.gitignore
+.eslintrc
+.editorconfig
+.codeclimate.yml
