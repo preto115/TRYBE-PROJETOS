@@ -1,5 +1,6 @@
 // implement MovieLibrary component here
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from 'react';
 // import MovieCard from './MovieCard';
 import SearchBar from './SearchBar';
@@ -88,5 +89,7 @@ class MovieLibrary extends React.Component {
 export default MovieLibrary;
 // const { name, value } = event.target;
 // onSearchTextChange={(event) => this.setState({ searchText: event.target.value })}
+=======
+>>>>>>> master
 =======
 >>>>>>> master

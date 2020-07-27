@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import CadastraMovie from './CadastraMovie';
@@ -82,6 +83,9 @@ class AddMovie extends React.Component {
 }
 
 export default AddMovie;
+=======
+// implement AddMovie component here
+>>>>>>> master
 =======
 // implement AddMovie component here
 >>>>>>> master

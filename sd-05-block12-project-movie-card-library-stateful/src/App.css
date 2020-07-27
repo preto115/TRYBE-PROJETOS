@@ -23,7 +23,10 @@ body {
   display: flex;
   flex-flow: row wrap;
 <<<<<<< HEAD
+<<<<<<< HEAD
   justify-content: center;
+=======
+>>>>>>> master
 =======
 >>>>>>> master
   padding: 48px 30px;
@@ -86,11 +89,14 @@ body {
   padding: 12px 20px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .searchBar{
   border: 1px solid rgba(0, 0, 0, 0.125);
   padding: 20px;
   color: orange;
 }
+=======
+>>>>>>> master
 =======
 >>>>>>> master

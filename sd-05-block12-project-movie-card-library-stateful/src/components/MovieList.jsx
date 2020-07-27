@@ -1,5 +1,9 @@
 import React from 'react';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 =======
 
 >>>>>>> master
@@ -9,6 +13,10 @@ class MovieList extends React.Component {
   render() {
     const { movies } = this.props;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 =======
 
 >>>>>>> master
