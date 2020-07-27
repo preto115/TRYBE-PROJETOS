@@ -270,7 +270,10 @@ describe('<MovieLibrary /> should render <AddMovie />', () => {
     const newMovies = moviesList();
 
     expect(newMovies.length).toEqual(movies.length + 1);
+<<<<<<< HEAD
     console.log("Recebeu: "+ newMovies.length+ " Esperava: ", movies.length + 1);
+=======
+>>>>>>> master
     expect(newMovies[newMovies.length - 1]).toEqual(newMovie);
   });
 });

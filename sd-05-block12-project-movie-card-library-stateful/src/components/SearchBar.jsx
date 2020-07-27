@@ -1,4 +1,5 @@
 // implement SearchBar component here
+<<<<<<< HEAD
 import React from 'react';
 import TextoDeEntrada from './TextoDeEntrada';
 import SelecaoFavorito from './SelecaoFavorito';
@@ -57,3 +58,5 @@ class SearchBar extends React.Component {
 }
 
 export default SearchBar;
+=======
+>>>>>>> master

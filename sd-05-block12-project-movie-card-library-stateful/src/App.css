@@ -22,7 +22,10 @@ body {
 .movie-list {
   display: flex;
   flex-flow: row wrap;
+<<<<<<< HEAD
   justify-content: center;
+=======
+>>>>>>> master
   padding: 48px 30px;
 }
 
@@ -82,9 +85,12 @@ body {
   justify-content: flex-end;
   padding: 12px 20px;
 }
+<<<<<<< HEAD
 
 .searchBar{
   border: 1px solid rgba(0, 0, 0, 0.125);
   padding: 20px;
   color: orange;
 }
+=======
+>>>>>>> master
