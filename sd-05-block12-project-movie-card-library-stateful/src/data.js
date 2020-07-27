@@ -15,14 +15,30 @@ const movies = [
     rating: 4.5,
     imagePath: 'images/Final_Fantasy_Spirits_Within.jpg',
     bookmarked: false,
+<<<<<<< HEAD
+<<<<<<< HEAD
+    genre: 'thriller',
+=======
     genre: 'fantasy',
+>>>>>>> master
+=======
+    genre: 'fantasy',
+>>>>>>> master
   },
   {
     title: 'Ghost In The Shell',
     subtitle: 'Ghost In The Shell',
     storyline: 'A hacker known as the Puppet Master is hunted by a female cyborg cop and her partner. This film is a revised version of Ghost in the Shell (1995).',
     rating: 5,
+<<<<<<< HEAD
+<<<<<<< HEAD
+    imagePath: 'images/Ghost_In_The_Shell_2_0.jpg',
+=======
     imagePath: 'images/Kingsglaive_Final_Fantasy_XV.jpg',
+>>>>>>> master
+=======
+    imagePath: 'images/Kingsglaive_Final_Fantasy_XV.jpg',
+>>>>>>> master
     bookmarked: false,
     genre: 'comedy',
   },
@@ -42,7 +58,15 @@ const movies = [
     rating: 4.2,
     imagePath: 'images/Resident_Evil_Vendetta.jpg',
     bookmarked: true,
+<<<<<<< HEAD
+<<<<<<< HEAD
+    genre: 'thriller',
+=======
     genre: 'fantasy',
+>>>>>>> master
+=======
+    genre: 'fantasy',
+>>>>>>> master
   },
 ];
 
